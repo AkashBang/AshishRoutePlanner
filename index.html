@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Route Planner with Current Location</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div id="map"></div>
+  <div id="route-inputs">
+    <input type="text" id="stop-1" placeholder="Enter first stop" />
+    <input type="text" id="stop-2" placeholder="Enter second stop" />
+    <input type="text" id="stop-3" placeholder="Enter third stop" />
+    <button id="calculate-route">Calculate Route</button>
+  </div>
+  <div id="route-details"></div>
+  <script src="script.js"></script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDlSfdYs5zDJf5-BzwVDzcRlnzEGBG96jI&libraries=places&callback=initMap"></script>
+</body>
+</html>

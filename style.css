@@ -1,0 +1,58 @@
+#map {
+  height: 400px;
+}
+
+#route-inputs {
+  margin: 10px;
+  text-align: center;
+}
+
+input[type="text"] {
+  width: calc(33% - 12px);
+  padding: 10px;
+  margin: 0 4px 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#route-details {
+  margin: 10px;
+  text-align: left;
+}
+
+.route-list {
+  list-style-type: none;
+  padding-left: 0;
+  padding-top: 10px;
+}
+
+.route-list li {
+  background-color: #f8f8f8;
+  margin-bottom: 8px;
+  padding: 12px;
+  border-radius: 4px;
+  border-left: 4px solid #4CAF50;
+  box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.2);
+}
+
+.route-list li:first-child {
+  border-top: none;
+}
+
+.route-list li:last-child {
+  margin-bottom: 0;
+}
